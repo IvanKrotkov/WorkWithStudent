@@ -1,4 +1,4 @@
-package Seminar5;
+package Seminar5.Infrasructure.Interfaces;
 
 import Seminar5.Infrasructure.Exception.ExceptionGettingHuman;
 import Seminar5.Infrasructure.People.Human;

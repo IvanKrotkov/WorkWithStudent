@@ -1,9 +1,9 @@
 package Seminar5.Core;
 
-import Seminar5.DiplomaGetter;
-import Seminar5.GroupCreater;
+import Seminar5.Infrasructure.Interfaces.DiplomaGetter;
+import Seminar5.Infrasructure.Interfaces.GroupCreater;
 import Seminar5.Infrasructure.Exception.ExceptionIssuingDiploma;
-import Seminar5.WorkerWithFile;
+import Seminar5.Infrasructure.Interfaces.WorkerWithFile;
 import Seminar5.Infrasructure.People.Student;
 import Seminar5.Infrasructure.People.StudyGroup;
 import Seminar5.Infrasructure.People.Teacher;

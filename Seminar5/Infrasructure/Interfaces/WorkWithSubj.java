@@ -1,10 +1,10 @@
-package Seminar5;
+package Seminar5.Infrasructure.Interfaces;
 
 import Seminar5.Infrasructure.Attestation.Subjects;
 
 import java.util.ArrayList;
 
-public interface WorkWithSubjAndMark{
+public interface WorkWithSubj {
     default ArrayList<Subjects> setSubjAndMak(String[] strings, int index) {
         String[] s = findSubjAndMak(strings, index);
         ArrayList<Subjects> subjects = new ArrayList<>();

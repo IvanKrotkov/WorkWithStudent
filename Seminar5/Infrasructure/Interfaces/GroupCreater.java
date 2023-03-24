@@ -1,4 +1,4 @@
-package Seminar5;
+package Seminar5.Infrasructure.Interfaces;
 
 
 import Seminar5.Infrasructure.People.Student;
@@ -7,7 +7,7 @@ import Seminar5.Infrasructure.People.Teacher;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public interface GroupCreater extends WorkerWithFile,ThatAdds,WorkWithSubjAndMark {
+public interface GroupCreater extends WorkerWithFile, ThatAdds, WorkWithSubj {
     default ArrayList<Teacher> teamCreate(String nameFile) throws IOException {
         ArrayList<Teacher> teachers = new ArrayList<>();
         String[] dataTeacher = readFile(nameFile);

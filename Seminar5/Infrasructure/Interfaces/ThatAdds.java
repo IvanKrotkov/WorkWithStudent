@@ -1,4 +1,4 @@
-package Seminar5;
+package Seminar5.Infrasructure.Interfaces;
 
 import Seminar5.Infrasructure.Attestation.Schedule;
 import Seminar5.Infrasructure.People.Student;
@@ -6,7 +6,7 @@ import Seminar5.Infrasructure.People.Teacher;
 
 import java.util.ArrayList;
 
-public interface ThatAdds extends WorkWithSubjAndMark{
+public interface ThatAdds extends WorkWithSubj {
     default void addTeachers(String[] data, ArrayList<Teacher> teachers){
         for (int i = 0; i < data.length; i++) {
             String[] temp = data[i].split(" ");

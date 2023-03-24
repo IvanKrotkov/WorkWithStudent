@@ -1,4 +1,4 @@
-package Seminar5;
+package Seminar5.Infrasructure.Interfaces;
 
 import Seminar5.Infrasructure.Attestation.Schedule;
 import Seminar5.Infrasructure.Exception.ExceptionIssuingDiploma;

@@ -1,8 +1,6 @@
 package Seminar5.Infrasructure.People;
 
-import Seminar5.GetElement;
-import Seminar5.Infrasructure.Exception.ExceptionGettingHuman;
-import Seminar5.Infrasructure.Identificate;
+import Seminar5.Infrasructure.Interfaces.GetElement;
 
 import java.util.ArrayList;
 import java.util.Iterator;
