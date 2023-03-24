@@ -1,0 +1,3 @@
+Ivan Krotrov 89019030023 Math:5-Socialogy:*-A culture of speech:4
+Andrey Demidov 89019030023 Math:*-Socialogy:4-A culture of speech:3
+Alex Kostromin 89019030023 Math:5-Socialogy:5-A culture of speech:*
